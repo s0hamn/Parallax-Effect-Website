@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.parallax-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10;
+}
+
+
+/*         
+.blackop {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    min-height: 2700px;
+    opacity: 0.3;
+} */
+
+.caption {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 75px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.content h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.content p {
+    color: white;
+    line-height: 25px;
+    margin: 30px 0;
+}
